@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form pt1</h1>
+    <form action = "/form-post">
+        <input type = "text">
+        <input type = "date">
+        <input type = "color">
+        <input type = "file">
+        <input type ="checkbox">
+        <input type = "range" min = "0" max = "10" value = "5" step = "1">
+    </form>
+
+    <h1>Sign In</h1>
+    <h2>Form Enhancements</h2>
+    <form action = "index.html">
+        <input name = "username" type = "text" placeholder = "yoname">
+        <input name = "password" type = "password" placeholder = "yopassword">
+        <input type = "submit"> 
+    </form>
+
+    <h2>Form Enhancements 2</h2>
+    <form action = "https://www.google.com/">
+        <input name = "q" type = "text" placeholder = "search field">
+        <input type = "submit"> 
+    </form>
+
+    <h2>Form with Labels</h2>
+    <h3>Option 1</h3>
+    <form action = "https://www.google.com/">
+        <label> Yo Username: <input name = "username" type = "text"> </label>
+        <label>Yo Password <input name = "password" type = "password"> </label>
+        <input type = "submit">
+    </form>
+
+    <h3>Option 2</h3>
+    <form action = "https://www.google.com/">
+        <label for= "username"> Yo Username: </label>
+        <input id= "username" name= "username" type= "text" required>
+        <label for= "password"> Yo Password: </label>
+        <input id= "password" name= "password" type= "password" required>
+        <input type = "submit">
+    
+    </form> 
+
+    <h3>Option Email</h3>
+    <form action = "https://www.google.com/">
+        <label for= "email"> Yo Username: </label>
+        <input id= "email" name= "email" type= "email" required>
+        <label for= "password"> Yo Password: </label>
+        <input id= "password" name= "password" type= "password" minlength= "10" required>
+        <input type = "submit">
+    
+    </form> 
+
+    <h1>Using Radio button and Drop Down Menus - Form pt2</h1>
+    <p>What is your preferred pizza?</p>
+    <form action = "https://www.google.com/">
+        <label for = "Pepperoni"> Pepperoni: </label>
+        <input id = "Pepperoni" name = "pizzapreference" type="radio" value = "Pepperoni">
+        <label for = "Pineapple"> Pineapple: </label>
+        <input id = "Pineapple" name = "pizzapreference" type= "radio" value = "Pineapple">
+        <label for = "meatFeast" > Meat Feast: </label>
+        <input id = "meatFeast" name = "pizzapreference" type= "radio" value = "Meat Feast">
+
+        <br>
+        <label for = "termsAndConditions" > Agree with our Terms and Conditions </label>
+        <input id = "termsAndConditions" name= "termsAndConditions" type="checkbox" value="accepted">
+
+        <p> What is your favourite toppings? </p>
+        <select name = "toppings">
+            <option value = "GoodChoice">Blue Cheese</option>
+            <option value = "Meh">Onions</option>
+            <option value = "NotBad">Walnuts</option>
+        </select>
+
+        <br>
+
+        <p>Why do you like it?</p>
+        <textarea name= "paragraph" rows = "10"></textarea>
+        <br> <br>
+        <input type ="submit">
+
+
+</body>
+</html>
