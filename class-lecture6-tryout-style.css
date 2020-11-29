@@ -1,0 +1,44 @@
+/* html {
+    font-size: 10px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.2rem;
+    font-weight: 700;
+    text-decoration: solid underline 3px red;
+}
+
+p {
+    /* font-family: Arial; */
+    /* font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    font-weight: thin 100;
+    line-height: 2;
+    text-align: justify; */
+    /* text-decoration: wavy overline; */
+
+
+/* span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold 400; */
+/* } */ 
+
+div {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1 {
+    color: darkturquoise;
+    font-size: 18px;
+} 
+
+p {
+    width: 90%;
+    border: 2px red solid;
+    padding: 20px;
+
+}
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inheratance and Specificity</title>
+    <style>
+        body {
+            color: blueviolet;
+        }
+
+        h1 {
+            color: pink;
+        }
+
+        li {
+            color:cadetblue;
+        }
+        .highlight {
+            color: cornflowerblue;
+        }
+        #unique {
+            color: crimson;
+        }
+
+        #unique.highlight {
+            color:darkblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Inheritance and Specificity</h1>
+    <p>This is a paragraph</p>
+    <ul>
+        <li class = "highlight"> Random Special Word 1</li>
+        <li>Random Word not special 2</li>
+        <li class = "highlight"> Random Special Word 3</li>
+        <li>Random Word not special 4</li>
+        <li id = "unique" class = "highlight"> Random Special Word 5</li>
+    </ul>
+
+</body>
+</html>
