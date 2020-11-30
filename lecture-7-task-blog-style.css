@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    padding: 2% 23% 2% 23%;
+  }
+
+div {
+    border: #bdc7cf solid;
+    border-width: 20px;
+    padding: 0 20px 0 20px;
+}
+h1 {
+    color: #3098dd;
+        text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight: 300;
+}
+
+h2 {
+    color: #354b63; 
+    font-weight: 600;
+}
+
+
+hr {
+    color: #bdc7cf;
+    text-align: center;
+}
+
+p:first-of-type {
+    border-left: #bdc7cf solid;
+    border-width: 5px;
+    padding-left: 3px;
+}
